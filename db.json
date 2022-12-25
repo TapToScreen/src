@@ -1,0 +1,85 @@
+{
+"products": [
+    {
+        "id": 1,
+        "name": "Макорона мерилка",
+        "price": 0.93,
+        "category": "Бесполезная вещь",
+        "img": "1.jpg",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla hic dolore deserunt adipisci illum odio? Atque tempore non deleniti pariatur, officia est repudiandae nobis unde cumque, esse, ad deserunt laboriosam?",
+        "date": "02-04-2022"
+    },
+    {
+        "id": 2,
+        "name": "Перфоратор для кокоса",
+        "price": 0.33,
+        "category": "Бесполезная вещь",
+        "img": "2.jpg",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla hic dolore deserunt adipisci illum odio? Atque tempore non deleniti pariatur, officia est repudiandae nobis unde cumque, esse, ad deserunt laboriosam?",
+        "date": "22-03-2022"        
+    },
+    {
+        "id": 3,
+        "name": "Ресницы для автомобильных фар",
+        "price": 7.03,
+        "category": "Мусор",
+        "img": "3.jpg",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla hic dolore deserunt adipisci illum odio? Atque tempore non deleniti pariatur, officia est repudiandae nobis unde cumque, esse, ad deserunt laboriosam?",
+        "date": "14-06-2022"
+    },
+    {
+        "id": 4,
+        "name": "Зонтик для туфель",
+        "price": 3.23,
+        "category": "Супер Бесполезная вещь",
+        "img": "4.jpg",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla hic dolore deserunt adipisci illum odio? Atque tempore non deleniti pariatur, officia est repudiandae nobis unde cumque, esse, ad deserunt laboriosam?",
+        "date": "22-11-2022"
+    },
+    {
+        "id": 5,
+        "name": "Самополивающаяся лейка",
+        "price": 99.99,
+        "category": "Мусор",
+        "img": "5.jpg",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla hic dolore deserunt adipisci illum odio? Atque tempore non deleniti pariatur, officia est repudiandae nobis unde cumque, esse, ad deserunt laboriosam?",
+        "date": "30-02-2022"
+    },
+    {
+        "id": 6,
+        "name": "Повязка на голову для крепления пультов",
+        "price": 2.84,
+        "category": "Бесполезная вещь",
+        "img": "6.jpg",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla hic dolore deserunt adipisci illum odio? Atque tempore non deleniti pariatur, officia est repudiandae nobis unde cumque, esse, ad deserunt laboriosam?",
+        "date": "07-08-2022"
+    },
+    {
+        "id": 7,
+        "name": "Очки с одним стеклом",
+        "price": 6.53,
+        "category": "Супер Бесполезная вещь",
+        "img": "7.jpg",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla hic dolore deserunt adipisci illum odio? Atque tempore non deleniti pariatur, officia est repudiandae nobis unde cumque, esse, ad deserunt laboriosam?",
+        "date": "12-12-2022"
+    },
+    {
+        "id": 8,
+        "name": "Диплом о высшем образовании",
+        "price": 0.01,
+        "category": "Мусор",
+        "img": "8.jpg",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla hic dolore deserunt adipisci illum odio? Atque tempore non deleniti pariatur, officia est repudiandae nobis unde cumque, esse, ad deserunt laboriosam?",
+        "date": "16-07-2022"
+    },
+    {
+        "id": 9,
+        "name": "Чкопопай из Африки",
+        "price": 999.99,
+        "category": "Мусор",
+        "img": "9.jpg",
+        "description": "самый вкусный негр",
+        "date": "02-07-1990"
+    }
+    ]
+}

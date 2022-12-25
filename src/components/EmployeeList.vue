@@ -13,6 +13,17 @@
             </div>
         </div>
        </div> 
+       <div class="total-salary">
+        <div class="alert alert-primary" role="alert">
+          Общая сумма заработных плат сотрудников без налоговых: <strong>{{ TotalResult }}$</strong>
+        </div>
+    </div>
+
+    <div class="total-salaryWithNalog">
+        <div class="alert alert-primary" role="alert">
+          Общая сумма зарплаты: <strong>{{TotalWithNalogPrice}}$</strong>
+        </div>
+    </div> 
        
 </template>
 <script>
@@ -26,6 +37,35 @@ export default {
     methods: {
         removeEmployee (index) {
             this.$emit("remove", this.employees, index)
+        }
+    },
+    computed: {
+        TotalResult() {
+            let result = []
+
+            for (let item of this.employees) {
+                result.push(item.salary)
+            }
+
+            result = result.reduce(function (sum, el){
+                return sum + el 
+            })
+
+            return result
+        },
+
+        TotalWithNalogPrice () {
+            let result = []
+
+            for (let item of this.employees) {
+                result.push(Math.trunc(item.salary - (item.salary * 0.15)))
+            }
+
+            result = result.reduce(function (sum, el){
+                return sum + el 
+            })
+
+            return result
         }
     }
 }

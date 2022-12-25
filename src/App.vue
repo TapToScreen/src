@@ -9,22 +9,19 @@
             @remove="removeEmployee"
         ></EmployeeList>
 
-        <EmployeeResult
-        :employees="employees"
-            @price="totalPrice"
-        ></EmployeeResult>
+        
   </div>
 </template>
 <script>
 
 import EmployeeForm from "@/components/EmployeeForm.vue";
 import EmployeeList from "@/components/EmployeeList.vue";
-import EmployeeResult from "@/components/EmployeeResult.vue";
+
 
 export default {
 
     components: {
-        EmployeeForm, EmployeeList, EmployeeResult
+        EmployeeForm, EmployeeList
     },
 
     data() {
